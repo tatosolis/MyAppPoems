@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86BBFC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poemas de Guatemala"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/imgGuate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guatemala2" />
+
+    <Button
+        android:id="@+id/BtnUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgGuate"
+        android:text="Humberto Ak'abal "
+        android:onClick="Uno"
+        />
+    <Button
+        android:id="@+id/BtnDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnUno"
+        android:text="Miguel Angel Asturias"
+        android:onClick="Dos"
+        />
+    <Button
+        android:id="@+id/BtnTres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnDos"
+        android:text="José Batres Montufar"
+        android:onClick="Tres"
+        />
+
+
+
+</RelativeLayout>
